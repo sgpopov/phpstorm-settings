@@ -1,0 +1,13 @@
+<templateSet group="PHP Unit">
+  <template name="_t" value="/**&#10; * @test&#10; */&#10;public function $NAME$()&#10;{&#10;    $END$&#10;}" description="Test Method" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="_st" value="protected function setUp()&#10;{&#10;    $END$&#10;}" description="Set Up" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

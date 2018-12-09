@@ -1,0 +1,9 @@
+<templateSet group="Laravel-Testing">
+  <template name="testclass" value="&lt;?php&#10;&#10;namespace Tests\Feature;&#10;&#10;use Tests\TestCase;&#10;use Illuminate\Foundation\Testing\DatabaseTransactions;&#10;&#10;class $CLASS$ extends TestCase&#10;{&#10;    use DatabaseTransactions;&#10;    &#10;    /**&#10;     * @test&#10;     */&#10;    public function it_$METHOD$()&#10;    {&#10;        $END$&#10;    }&#10;}&#10;" shortcut="ENTER" description="Laravel Test Class" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
