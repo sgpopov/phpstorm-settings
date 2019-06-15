@@ -1,6 +1,9 @@
 <code_scheme name="svil4ok" version="173">
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="RIGHT_MARGIN" value="80" />
+  <JSCodeStyleSettings version="0">
+    <option name="SPACES_WITHIN_IMPORTS" value="true" />
+  </JSCodeStyleSettings>
   <MarkdownNavigatorCodeStyleSettings>
     <option name="TABLE_LEFT_ALIGN_MARKER" value="0" />
     <option name="RIGHT_MARGIN" value="72" />
@@ -27,6 +30,11 @@
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="PARENTHESES_EXPRESSION_RPAREN_WRAP" value="true" />
     <option name="WRAP_COMMENTS" value="true" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="PHP">
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="0" />
