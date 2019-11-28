@@ -5,7 +5,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="_st" value="protected function setUp()&#10;{&#10;    $END$&#10;}" description="Set Up" toReformat="false" toShortenFQNames="true">
+  <template name="_st" value="protected function setUp(): void&#10;{&#10;    $END$&#10;}" description="Set Up" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
